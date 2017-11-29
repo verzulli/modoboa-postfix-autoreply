@@ -38,6 +38,9 @@ Run the following commands to setup the database tables::
 Finally, restart the python process running modoboa (uwsgi, gunicorn,
 apache, whatever).
 
+**WARNING**: Please note that in order to properly work, this ``modoboa_postfix_autoreply`` plugin **require** a proper configuration of ``postfix``. Details about such a configuration have been reported in ``docs/setup.rst`` 
+
+
 .. |landscape| image:: https://landscape.io/github/modoboa/modoboa-postfix-autoreply/master/landscape.svg?style=flat
    :target: https://landscape.io/github/modoboa/modoboa-postfix-autoreply/master
    :alt: Code Health
